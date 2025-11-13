@@ -20,7 +20,9 @@ mechanisms in black-box online data poisoning attacks.
                                                   - Experiment 3: Controller Stability Domain Analysis
 4. "Performance Analysis of KI-UCB in Non-stationary Environments.py" 
                                                   - Experiment 4: Performance Analysis in Non-stationary Environments
-
+5. "Analysis of KL-UCB Algorithm's Significant Advantages in Privacy-Preserving Environments.py"
+                                                  - Experiment 5: Analysis of KL-UCB Algorithm's Significant Advantages in Privacy-Preserving Environments
+             
 [Environment Requirements]
 ==========================================================
 Python 3.8+ environment, requiring the following dependency packages:
@@ -121,6 +123,13 @@ Function Description:
 - Use Page-Hinkley change point detection
 - Compare algorithm performance with/without restart mechanism
 
+Experiment 5: Advantages Analysis in Privacy-Preserving Environments
+----------------------------------------------------------
+File: Analysis of KL-UCB Algorithm's Significant Advantages in Privacy-Preserving Environments.py
+
+Run Command:
+python "Analysis of KL-UCB Algorithm's Significant Advantages in Privacy-Preserving Environments.py"
+
 [Complete Run Process]
 ==========================================================
 Recommended to run experiments in the following order:
@@ -140,6 +149,8 @@ python "Controller Stability Domain Comparative Analysis.py"
 Step 5: Run Non-stationary Environment Experiment
 python "Performance Analysis of KI-UCB in Non-stationary Environments.py"
 
+Step 6: Run Privacy Protection Analysis
+python "Analysis of KL-UCB Algorithm's Significant Advantages in Privacy-Preserving Environments.py"
 
 [Output File Description]
 ==========================================================
@@ -170,4 +181,5 @@ Data Files (.json):
  
 ================================================================================
                               Documentation End
+
 ================================================================================
