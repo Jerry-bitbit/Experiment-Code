@@ -4,8 +4,6 @@ import seaborn as sns
 from scipy.stats import bernoulli
 import os
 
-
-
 class UCB:
     def __init__(self, n_arms, alpha=1.0):
         self.n_arms = n_arms
@@ -254,3 +252,4 @@ if __name__ == "__main__":
     plot_heatmaps()
 
     print("Heatmaps generated successfully!")
+
